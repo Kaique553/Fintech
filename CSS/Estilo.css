@@ -1,0 +1,273 @@
+.wireframe {
+    background-color: #484848;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.wireframe .div {
+    background-color: #484848;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.wireframe .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    padding: 11px 26px;
+    position: absolute;
+    top: 516px;
+    left: 1093px;
+    background-color: #789f79;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 6px solid;
+    border-color: #e0e0e0;
+    box-shadow: 0px 4px 4px #00000040;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.wireframe .frame:hover {
+    background: #bdbdbd;
+}
+
+.wireframe .adicionar-servi-o {
+    position: relative;
+    width: fit-content;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 67px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 61.4px;
+}
+
+.wireframe .gg-add {
+    position: relative;
+    width: 86px;
+    height: 86px;
+}
+
+.wireframe .frame-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 922px;
+    align-items: center;
+    gap: 21px 5px;
+    position: absolute;
+    top: 375px;
+    left: 72px;
+}
+
+.wireframe .rectangle {
+    position: relative;
+    width: 704px;
+    height: 132px;
+    background-color: #789f79;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.wireframe .more {
+    position: relative;
+    width: 197px;
+    height: 174px;
+}
+
+.wireframe .overlap-group {
+    position: relative;
+    height: 174px;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.wireframe .rectangle-2 {
+    width: 197px;
+    height: 132px;
+    top: 21px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #00000040;
+    position: absolute;
+    left: 0;
+}
+
+.wireframe .material-symbols {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    top: 0;
+    left: 8px;
+}
+
+.wireframe .text-wrapper {
+    position: absolute;
+    height: 56px;
+    top: 40px;
+    left: 48px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-2 {
+    position: absolute;
+    height: 56px;
+    top: 40px;
+    left: 444px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-3 {
+    position: absolute;
+    height: 56px;
+    top: 430px;
+    left: 48px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-4 {
+    top: 430px;
+    position: absolute;
+    height: 56px;
+    left: 444px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-5 {
+    position: absolute;
+    height: 56px;
+    top: 234px;
+    left: 48px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-6 {
+    top: 234px;
+    position: absolute;
+    height: 56px;
+    left: 444px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.wireframe .text-wrapper-7 {
+    position: absolute;
+    width: 424px;
+    top: 259px;
+    left: 85px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 63px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.wireframe .group-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wireframe .group {
+    position: relative;
+    width: 1442px;
+    height: 192px;
+    margin-right: -2px;
+}
+
+.wireframe .overlap {
+    position: relative;
+    width: 1440px;
+    height: 192px;
+}
+
+.wireframe .img {
+    width: 1440px;
+    height: 161px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.wireframe .text-wrapper-8 {
+    position: absolute;
+    width: 971px;
+    top: 4px;
+    left: 151px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 700;
+    color: #e0e0e0;
+    font-size: 139px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.wireframe .component {
+    position: absolute;
+    width: 105px;
+    height: 143px;
+    top: 10px;
+    left: 20px;
+}
+
+.wireframe .overlap-group-2 {
+    position: relative;
+    height: 143px;
+}
+
